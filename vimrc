@@ -60,17 +60,17 @@ filetype plugin on
 filetype plugin indent on
 
 set autoread          " 文件修改之后自动载入。
-set shortmess=atI       " 启动的时候不显示那个援助索马里儿童的提示
+"set shortmess=atI       " 启动的时候不显示那个援助索马里儿童的提示
 
 " 备份,到另一个位置. 防止误删, 目前是取消备份
-"set backup
-"set backupext=.bak
-"set backupdir=/tmp/vimbk/
+set backup
+set backupext=.bak
+set backupdir=/tmp/vimbk/
 
 " 取消备份。 视情况自己改
-set nobackup
+"set nobackup
 " 关闭交换文件
-set noswapfile
+"set noswapfile
 
 
 "create undo file
